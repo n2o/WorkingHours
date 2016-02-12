@@ -1,0 +1,2 @@
+defmodule WorkingHours do
+end
