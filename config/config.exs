@@ -6,7 +6,8 @@ config :working_hours, WorkingHours.Repo,
   adapter: Ecto.Adapters.Postgres,
   database: "working_hours",
   username: "postgres",
-  password: "postgres"
+  password: "postgres",
+  hostname: "localhost"
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
